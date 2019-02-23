@@ -27,8 +27,7 @@ app.get('/favicon.ico', (req, res) => {
 app.get('/members', (req, res) => {
     Member.find({}, "firstName lastName").then(members => {
         if (members !== null && members.length > 0) {
-            res.write(JSON.stringify("Testing"))
-            // res.write(JSON.stringify(members));
+            res.write(JSON.stringify(members));
         } else {
             res.write("No members found");
         }
