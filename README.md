@@ -1,4 +1,4 @@
-# AWS EC2 using Node.js and MongoDB
+# Deploy to an AWS EC2 instance with Node.js and MongoDB
 
 This repository is intended to help you deploy a basic Node.js app with a MongoDB database.  The Node.js app will serve out static content (index.html, CSS, client-side JavaScript) which point to a Node.js endpoints.
 
