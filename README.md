@@ -4,4 +4,4 @@ This repository is intended to help you deploy a basic Node.js app with a MongoD
 
 Watch the video tutorial:
 
-[![Create an AWS EC2 Instance](https://i9.ytimg.com/vi/Eh-u9CarXmA/mqdefault.jpg?sqp=CPCE2OYF&rs=AOn4CLDkOumzEZIEnVsWFd5_XbM4JIvhjQ&time=1557529391066)](http://www.youtube.com/watch?v=Eh-u9CarXmA)
+[![Create an AWS EC2 Instance](https://www.aaronwht.com/images/videos/aws-ec2-node-mongo.jpg)](http://www.youtube.com/watch?v=Eh-u9CarXmA)
