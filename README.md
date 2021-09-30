@@ -2,7 +2,7 @@
 
 This repository is intended to help you deploy a basic Node.js app with a MongoDB database.  The Node.js app will serve out static content (index.html, CSS, client-side JavaScript) which point to a Node.js endpoints.  
 
-[Create an AWS EC2 Instance](Watch the video tutorial):
+Watch the video tutorial:
 
 [![Create an AWS EC2 Instance](https://www.aaronwht.com/images/videos/aws-ec2-node-mongo.jpg)](http://www.youtube.com/watch?v=7vf210p2tJg)  
 
@@ -65,10 +65,10 @@ db.members.insert({ firstName: "Bob", lastName: "Smith" })
 Install `mongoose` and `express`  
 `npm install mongoose express`
 
-Install PM globally: 
+Install PM globally:  
 `npm install pm2 -g` 
 
-Run the app: 
+Run the app:  
 `pm2 start server.js` 
 
 
