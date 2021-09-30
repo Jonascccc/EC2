@@ -2,6 +2,11 @@
 
 This repository is intended to help you deploy a basic Node.js app with a MongoDB database.  The Node.js app will serve out static content (index.html, CSS, client-side JavaScript) which point to a Node.js endpoints.  
 
+Watch the video tutorial:
+
+[![Create an AWS EC2 Instance](https://www.aaronwht.com/images/videos/aws-ec2-node-mongo.jpg)](http://www.youtube.com/watch?v=7vf210p2tJg)  
+
+
 Commands:  
 Update permissions on your `.pem` file:  
 `sudo chmod 400 YOUR_FILE_NAME.PEM`  
@@ -67,6 +72,3 @@ Run the app:
 `pm2 start server.js` 
 
 
-Watch the video tutorial:
-
-[![Create an AWS EC2 Instance](https://www.aaronwht.com/images/videos/aws-ec2-node-mongo.jpg)](http://www.youtube.com/watch?v=7vf210p2tJg)
