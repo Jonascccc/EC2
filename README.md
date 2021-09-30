@@ -28,10 +28,10 @@ gpgkey=https://www.mongodb.org/static/pgp/server-5.0.asc
 Install MongoDB: 
 `sudo yum install -y mongodb-org` 
 
-Make MongoDB directories: 
-`cd /` 
-`sudo mkdir data` 
-`sudo mkdir db` 
+Make MongoDB directories:  
+`cd /`  
+`sudo mkdir data`  
+`sudo mkdir db`  
 
 Navigate back to the home directory: 
 `cd /home/ec2-user` 
