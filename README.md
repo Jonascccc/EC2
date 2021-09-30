@@ -15,8 +15,10 @@ Install Node:
 Create redirect from port 80 to 8000:  
 `sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8000`  
 
-```cd /etc/yum.repos.d
-sudo touch mongo-org-5.0.repo```  
+
+
+`cd /etc/yum.repos.d` 
+`sudo touch mongo-org-5.0.repo`  
 
 ```[mongodb-org-5.0]
 name=MongoDB Repository
