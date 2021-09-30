@@ -45,17 +45,19 @@ Start Mongo Service:
 `sudo service mongod start` 
 
 Use MongoDB:  
-`mongo  
-use mern` 
+`mongo`  
+`use mern`  
 
 Create database owner:  
-`db.createUser({ user: "my_user", pwd: "my_pwd", roles: ["dbOwner"] })`
+`db.createUser({ user: "my_user", pwd: "my_pwd", roles: ["dbOwner"] })`  
 
-Create database documents:
-`db.members.insert({ firstName: "Bill", lastName: "Smith" })
-db.members.insert({ firstName: "Bob", lastName: "Smith" })` 
+Create database documents:  
+```
+db.members.insert({ firstName: "Bill", lastName: "Smith" })
+db.members.insert({ firstName: "Bob", lastName: "Smith" })
+```  
 
-Install `mongoose` and `express` 
+Install `mongoose` and `express`  
 `npm install mongoose express`
 
 Install PM globally: 
