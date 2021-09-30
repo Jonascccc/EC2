@@ -15,8 +15,6 @@ Install Node:
 Create redirect from port 80 to 8000:  
 `sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8000`  
 
-
-
 `cd /etc/yum.repos.d` 
 `sudo touch mongo-org-5.0.repo`  
 
@@ -30,7 +28,7 @@ enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-5.0.asc
 ```  
 
-Install MongoDB: 
+Install MongoDB:  
 `sudo yum install -y mongodb-org` 
 
 Make MongoDB directories:  
@@ -38,17 +36,17 @@ Make MongoDB directories:
 `sudo mkdir data`  
 `sudo mkdir db`  
 
-Navigate back to the home directory: 
+Navigate back to the home directory:  
 `cd /home/ec2-user` 
 
-Start Mongo Service:
+Start Mongo Service:  
 `sudo service mongod start` 
 
-Use MongoDB:
+Use MongoDB:  
 `mongo
 use mern` 
 
-Create database owner: 
+Create database owner:  
 `db.createUser({ user: "my_user", pwd: "my_pwd", roles: ["dbOwner"] })`
 
 Create database documents:
