@@ -29,9 +29,9 @@ Install MongoDB:
 `sudo yum install -y mongodb-org` 
 
 Make MongoDB directories: 
-`cd /
-sudo mkdir data
-sudo mkdir db`
+`cd /` 
+`sudo mkdir data` 
+`sudo mkdir db` 
 
 Navigate back to the home directory: 
 `cd /home/ec2-user` 
