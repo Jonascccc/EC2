@@ -2,19 +2,21 @@
 
 This repository is intended to help you deploy a basic Node.js app with a MongoDB database.  The Node.js app will serve out static content (index.html, CSS, client-side JavaScript) which point to a Node.js endpoints.  
 
-Commands: Update permissions on your `.pem` file: `sudo chmod 400 YOUR_FILE_NAME.PEM`. 
+Commands:  
+Update permissions on your `.pem` file:  
+`sudo chmod 400 YOUR_FILE_NAME.PEM`  
 
-Install Node Version Manager: 
+Install Node Version Manager:  
 `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash` 
 
 Install Node:  
 `nvm install node` 
 
-Create redirect from port 80 to 8000:
+Create redirect from port 80 to 8000:  
 `sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8000`  
 
-`cd /etc/yum.repos.d
-sudo touch mongo-org-5.0.repo` 
+```cd /etc/yum.repos.d
+sudo touch mongo-org-5.0.repo```. 
 
 ```
 [mongodb-org-5.0]
