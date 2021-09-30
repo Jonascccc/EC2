@@ -23,8 +23,8 @@ name=MongoDB Repository
 baseurl=https://repo.mongodb.org/yum/amazon/2/mongodb-org/5.0/x86_64/
 gpgcheck=1
 enabled=1
-gpgkey=https://www.mongodb.org/static/pgp/server-5.0.asc
-```
+gpgkey=https://www.mongodb.org/static/pgp/server-5.0.asc```  
+
 
 Install MongoDB: 
 `sudo yum install -y mongodb-org` 
