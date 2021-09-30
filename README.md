@@ -44,9 +44,20 @@ Use MongoDB:
 use mern` 
 
 Create database owner: 
-`db.createUser({ user: "my_user", pwd: "my_pwd", roles: ["dbOwner"] })` 
+`db.createUser({ user: "my_user", pwd: "my_pwd", roles: ["dbOwner"] })`
 
+Create database documents:
+`db.members.insert({ firstName: "Bill", lastName: "Smith" })
+db.members.insert({ firstName: "Bob", lastName: "Smith" })` 
 
+Install `mongoose` and `express` 
+`npm install mongoose express`
+
+Install PM globally: 
+`npm install pm2 -g` 
+
+Run the app: 
+`pm2 start server.js` 
 
 
 Watch the video tutorial:
